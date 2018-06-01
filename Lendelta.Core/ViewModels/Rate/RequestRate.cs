@@ -3,7 +3,7 @@ using Newtonsoft.Json;
 using Newtonsoft.Json.Converters;
 using System.ComponentModel.DataAnnotations;
 
-namespace GenesisVision.Core.ViewModels.Rate
+namespace LENDELTA.Core.ViewModels.Rate
 {
     public class RequestRate
     {
