@@ -1,7 +1,7 @@
-﻿using GenesisVision.Core.ViewModels.Common;
+﻿using LENDELTA.Core.ViewModels.Common;
 using System.ComponentModel.DataAnnotations;
 
-namespace GenesisVision.Core.ViewModels.Manager
+namespace LENDELTA.Core.ViewModels.Manager
 {
     public class NewTournamentAccountRequest : HiddenUserId
     {
