@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace GenesisVision.Core.ViewModels.Account
+namespace LENDELTA.Core.ViewModels.Account
 {
     public class ForgotPasswordViewModel
     {
