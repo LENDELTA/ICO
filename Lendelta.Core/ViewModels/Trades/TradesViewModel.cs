@@ -1,9 +1,9 @@
-﻿using GenesisVision.DataModel.Enums;
+﻿using LENDELTA.DataModel.Enums;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Converters;
 using System.Collections.Generic;
 
-namespace GenesisVision.Core.ViewModels.Trades
+namespace LENDELTA.Core.ViewModels.Trades
 {
     public class TradesViewModel
     {
