@@ -1,7 +1,7 @@
 ﻿using Newtonsoft.Json;
 using Newtonsoft.Json.Converters;
 
-namespace GenesisVision.Core.ViewModels.Investment
+namespace LENDELTA.Core.ViewModels.Investment
 {
     public class DashboardFilter
     {
