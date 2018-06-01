@@ -1,11 +1,11 @@
-﻿using GenesisVision.Common.Models;
-using GenesisVision.Core.ViewModels.Common;
+﻿using LENDELTA.Common.Models;
+using LENDELTA.Core.ViewModels.Common;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc.ModelBinding;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace GenesisVision.Core.Models
+namespace LENDELTA.Core.Models
 {
     public class ErrorMessage
     {
