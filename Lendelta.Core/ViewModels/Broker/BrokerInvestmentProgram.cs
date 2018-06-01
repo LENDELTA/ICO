@@ -1,8 +1,8 @@
 ﻿using System;
-using GenesisVision.Core.ViewModels.Investment;
-using GenesisVision.DataModel.Enums;
+using LENDELTA.Core.ViewModels.Investment;
+using LENDELTA.DataModel.Enums;
 
-namespace GenesisVision.Core.ViewModels.Broker
+namespace LENDELTA.Core.ViewModels.Broker
 {
     public class BrokerInvestmentProgram
     {
