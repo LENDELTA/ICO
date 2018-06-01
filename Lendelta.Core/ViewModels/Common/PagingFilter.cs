@@ -1,4 +1,4 @@
-﻿namespace GenesisVision.Core.ViewModels.Common
+﻿namespace LENDELTA.Core.ViewModels.Common
 {
     public class PagingFilter
     {
