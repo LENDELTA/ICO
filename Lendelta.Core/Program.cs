@@ -5,7 +5,7 @@ using NLog.Web;
 using System;
 using System.IO;
 
-namespace GenesisVision.Core
+namespace LENDELTA.Core
 {
     public class Program
     {
@@ -15,7 +15,7 @@ namespace GenesisVision.Core
 
             try
             {
-                logger.Debug("Init GenesisVision.Core");
+                logger.Debug("Init LENDELTA.Core");
                 BuildWebHost(args).Run();
             }
             catch (Exception e)
