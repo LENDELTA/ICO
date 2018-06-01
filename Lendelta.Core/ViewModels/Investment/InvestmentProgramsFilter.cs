@@ -1,10 +1,10 @@
-﻿using GenesisVision.Core.ViewModels.Common;
-using GenesisVision.DataModel.Enums;
+﻿using LENDELTA.Core.ViewModels.Common;
+using LENDELTA.DataModel.Enums;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Converters;
 using System;
 
-namespace GenesisVision.Core.ViewModels.Investment
+namespace LENDELTA.Core.ViewModels.Investment
 {
     public enum Sorting
     {
