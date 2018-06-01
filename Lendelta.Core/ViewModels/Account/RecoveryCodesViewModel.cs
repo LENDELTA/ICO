@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace GenesisVision.Core.ViewModels.Account
+namespace LENDELTA.Core.ViewModels.Account
 {
     public class RecoveryCodesViewModel
     {
