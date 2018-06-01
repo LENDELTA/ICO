@@ -1,10 +1,10 @@
-﻿using GenesisVision.DataModel.Enums;
+﻿using LENDELTA.DataModel.Enums;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Converters;
 using System;
 using System.Collections.Generic;
 
-namespace GenesisVision.Core.ViewModels.Manager
+namespace LENDELTA.Core.ViewModels.Manager
 {
     public class ManagerDashboardStatistic
     {
