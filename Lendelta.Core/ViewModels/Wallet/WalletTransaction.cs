@@ -1,9 +1,9 @@
-﻿using GenesisVision.DataModel.Enums;
+﻿using LENDELTA.DataModel.Enums;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Converters;
 using System;
 
-namespace GenesisVision.Core.ViewModels.Wallet
+namespace LENDELTA.Core.ViewModels.Wallet
 {
     public class WalletTransaction
     {
