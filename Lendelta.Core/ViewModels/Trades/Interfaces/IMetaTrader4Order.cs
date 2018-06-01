@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace GenesisVision.Core.ViewModels.Trades.Interfaces
+namespace LENDELTA.Core.ViewModels.Trades.Interfaces
 {
     public interface IMetaTrader4Order : IBaseOrder
     {
