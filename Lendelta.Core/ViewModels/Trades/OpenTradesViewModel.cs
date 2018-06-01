@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace GenesisVision.Core.ViewModels.Trades
+namespace LENDELTA.Core.ViewModels.Trades
 {
     public class OpenTradesViewModel
     {
