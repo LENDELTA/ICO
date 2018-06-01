@@ -1,7 +1,7 @@
 ﻿using Newtonsoft.Json;
 using Newtonsoft.Json.Converters;
 
-namespace GenesisVision.Core.ViewModels.Manager
+namespace LENDELTA.Core.ViewModels.Manager
 {
     public enum ManagerDashboardProgramsType
     {
