@@ -1,11 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
-using GenesisVision.Core.ViewModels.Account;
-using GenesisVision.DataModel.Enums;
+using LENDELTA.Core.ViewModels.Account;
+using LENDELTA.DataModel.Enums;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Converters;
 
-namespace GenesisVision.Core.ViewModels.Investment
+namespace LENDELTA.Core.ViewModels.Investment
 {
     public class InvestmentProgramDetails : ITournament
     {
