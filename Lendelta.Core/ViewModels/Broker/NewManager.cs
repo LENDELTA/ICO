@@ -1,7 +1,7 @@
 ﻿using System;
 using System.ComponentModel.DataAnnotations;
 
-namespace GenesisVision.Core.ViewModels.Broker
+namespace LENDELTA.Core.ViewModels.Broker
 {
     public class NewManager
     {
