@@ -1,7 +1,7 @@
 ﻿using Newtonsoft.Json;
 using System;
 
-namespace GenesisVision.Core.ViewModels.Common
+namespace LENDELTA.Core.ViewModels.Common
 {
     public class HiddenUserId
     {
