@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace GenesisVision.Core.ViewModels.Files
+namespace LENDELTA.Core.ViewModels.Files
 {
     public class UploadResult
     {
