@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace GenesisVision.Core.ViewModels.Investment
+namespace LENDELTA.Core.ViewModels.Investment
 {
     public class InvestmentProgramViewModel
     {
