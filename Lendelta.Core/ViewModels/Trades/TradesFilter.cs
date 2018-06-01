@@ -1,9 +1,9 @@
 ﻿using System;
-using GenesisVision.Core.ViewModels.Common;
+using LENDELTA.Core.ViewModels.Common;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Converters;
 
-namespace GenesisVision.Core.ViewModels.Trades
+namespace LENDELTA.Core.ViewModels.Trades
 {
     public enum TradeSorting
     {
