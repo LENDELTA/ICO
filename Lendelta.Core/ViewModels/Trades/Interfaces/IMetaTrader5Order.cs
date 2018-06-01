@@ -1,7 +1,7 @@
 ﻿using System;
-using GenesisVision.DataModel.Enums;
+using LENDELTA.DataModel.Enums;
 
-namespace GenesisVision.Core.ViewModels.Trades.Interfaces
+namespace LENDELTA.Core.ViewModels.Trades.Interfaces
 {
     public interface IMetaTrader5Order : IBaseOrder
     {
