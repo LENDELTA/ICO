@@ -1,7 +1,7 @@
 {
   "name": "platform-contracts",
   "version": "1.0.0",
-  "description": "Genesis Vision platform smart contracts",
+  "description": "Lendelta platform smart contracts",
   "dependencies": {
     "zeppelin-solidity": "^1.4.0"
   }
