@@ -1,4 +1,4 @@
-﻿namespace GenesisVision.Core.Models
+﻿namespace LENDELTA.Core.Models
 {
     public enum ErrorCodes
     {
