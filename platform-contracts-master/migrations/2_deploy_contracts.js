@@ -1,6 +1,6 @@
-const GenesisVisionPlatform = artifacts.require("./GenesisVisionPlatform.sol");
+const LendeltaPlatform = artifacts.require("./LendeltaPlatform.sol");
 
 module.exports = function(deployer, network, accounts) {
-    deployer.deploy(GenesisVisionPlatform);
+    deployer.deploy(LendeltaPlatform);
 };
 
