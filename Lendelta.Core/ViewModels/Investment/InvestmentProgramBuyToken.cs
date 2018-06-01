@@ -1,10 +1,10 @@
-﻿using GenesisVision.Core.ViewModels.Account;
-using GenesisVision.DataModel.Enums;
+﻿using LENDELTA.Core.ViewModels.Account;
+using LENDELTA.DataModel.Enums;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Converters;
 using System;
 
-namespace GenesisVision.Core.ViewModels.Investment
+namespace LENDELTA.Core.ViewModels.Investment
 {
     public class InvestmentProgramBuyToken
     {
