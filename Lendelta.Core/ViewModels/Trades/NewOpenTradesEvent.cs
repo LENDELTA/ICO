@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 
-namespace GenesisVision.Core.ViewModels.Trades
+namespace LENDELTA.Core.ViewModels.Trades
 {
     public class NewOpenTradesEvent
     {
