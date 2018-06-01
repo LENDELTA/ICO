@@ -1,5 +1,5 @@
-# Genesis Vision Platform Smart Contracts
-Smart contracts for Genesis Vision platform.
+# LENDELTA Platform Smart Contracts
+Smart contracts for LENDELTA platform.
 
 ## How to Start
 
@@ -15,4 +15,4 @@ You can run `truffle compile`, `truffle migrate` and `truffle test` to compile y
 
 ### License
 
-[LGPLv3](https://github.com/GenesisVision/platform-contracts/blob/master/LICENSE)
+[LGPLv3](https://github.com/LENDELTA/platform-contracts/blob/master/LICENSE)
