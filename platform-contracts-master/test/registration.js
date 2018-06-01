@@ -1,15 +1,15 @@
-var GenesisVisionPlatform = artifacts.require("./GenesisVisionPlatform.sol");
+var LendeltaPlatform = artifacts.require("./LendeltaPlatform.sol");
 
-contract("GenesisVisionPlatform", function (accounts) {
+contract("LendeltaPlatform", function (accounts) {
     var account = accounts[0];
     var account1 = accounts[1];
 
     var platform;
 
     before('setup', (done) => {
-        GenesisVisionPlatform.deployed().then((_platform) => {
+        LendeltaPlatform.deployed().then((_platform) => {
             platform = _platform;
-            return platform.setGenesisVisionManager(account);
+            return platform.setLendeltaManager(account);
         })
         .then(() => {
             done();
