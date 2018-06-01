@@ -3,10 +3,10 @@ pragma solidity ^0.4.13;
 import "./libs/Models.sol";
 import "./ManagerToken.sol";
 
-contract GenesisVisionPlatform {
+contract LENDELTA Platform {
 
     address contractOwner;
-    address genesisVisionAdmin;
+    address LENDELTA Admin;
 
     mapping (string => Models.Broker) brokers;
     mapping (string => Models.InvestmentProgram) investmentPrograms;
@@ -21,17 +21,17 @@ contract GenesisVisionPlatform {
     }
 
     modifier gvAdminOnly() {
-        require(msg.sender == genesisVisionAdmin || msg.sender == contractOwner);
+        require(msg.sender == LENDELTAAdmin || msg.sender == contractOwner);
         _;
     }
     
     modifier brokerOrGvAdminByBrokerOnly(string brokerId) {
-        require(msg.sender == genesisVisionAdmin || msg.sender == contractOwner || brokers[brokerId].brokerContract == msg.sender);
+        require(msg.sender == LENDELTAAdmin || msg.sender == contractOwner || brokers[brokerId].brokerContract == msg.sender);
         _;
     }
     
     modifier brokerOrGvAdminByManagerOnly(string investmentProgramId) {
-        require(msg.sender == genesisVisionAdmin || msg.sender == contractOwner || brokers[investmentPrograms[investmentProgramId].brokerId].brokerContract == msg.sender);
+        require(msg.sender == LENDELTAAdmin || msg.sender == contractOwner || brokers[investmentPrograms[investmentProgramId].brokerId].brokerContract == msg.sender);
         _;
     }
 
@@ -39,8 +39,8 @@ contract GenesisVisionPlatform {
         contractOwner = msg.sender;
     }
 
-    function setGenesisVisionAdmin(address admin) ownerOnly {
-        genesisVisionAdmin = admin;
+    function setLENDELTAAdmin(address admin) ownerOnly {
+        LENDELTAAdmin = admin;
     }
 
     function registerBroker (string brokerId, address brokerContract, string name, string host) gvAdminOnly {
