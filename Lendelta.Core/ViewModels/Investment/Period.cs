@@ -1,11 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
-using GenesisVision.DataModel.Enums;
-using GenesisVision.DataModel.Models;
+using LENDELTA.DataModel.Enums;
+using LENDELTA.DataModel.Models;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Converters;
 
-namespace GenesisVision.Core.ViewModels.Investment
+namespace LENDELTA.Core.ViewModels.Investment
 {
     public class Period
     {
