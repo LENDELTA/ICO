@@ -1,7 +1,7 @@
-﻿using GenesisVision.Core.ViewModels.Manager;
+﻿using LENDELTA.Core.ViewModels.Manager;
 using System.Collections.Generic;
 
-namespace GenesisVision.Core.ViewModels.Broker
+namespace LENDELTA.Core.ViewModels.Broker
 {
     public class BrokerInitData
     {
