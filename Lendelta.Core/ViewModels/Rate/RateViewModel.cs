@@ -1,4 +1,4 @@
-﻿namespace GenesisVision.Core.ViewModels.Rate
+﻿namespace LENDELTA.Core.ViewModels.Rate
 {
     public class RateViewModel : RequestRate
     {
