@@ -1,8 +1,8 @@
 ﻿using System;
 using System.ComponentModel.DataAnnotations;
-using GenesisVision.Core.ViewModels.Common;
+using LENDELTA.Core.ViewModels.Common;
 
-namespace GenesisVision.Core.ViewModels.Manager
+namespace LENDELTA.Core.ViewModels.Manager
 {
     public class NewInvestmentRequest : HiddenUserId
     {
