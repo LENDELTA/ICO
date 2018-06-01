@@ -1,8 +1,8 @@
-﻿using GenesisVision.Core.ViewModels.Investment;
+﻿using LENDELTA.Core.ViewModels.Investment;
 using System.Collections.Generic;
-using GenesisVision.DataModel.Enums;
+using LENDELTA.DataModel.Enums;
 
-namespace GenesisVision.Core.ViewModels.Broker
+namespace LENDELTA.Core.ViewModels.Broker
 {
     public class ClosePeriodData
     {
