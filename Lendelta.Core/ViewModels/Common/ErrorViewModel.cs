@@ -1,9 +1,9 @@
 ﻿using System.Collections.Generic;
-using GenesisVision.Core.Models;
+using LENDELTA.Core.Models;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Converters;
 
-namespace GenesisVision.Core.ViewModels.Common
+namespace LENDELTA.Core.ViewModels.Common
 {
     public class ErrorViewModel
     {
