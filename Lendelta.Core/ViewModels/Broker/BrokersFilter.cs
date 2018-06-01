@@ -1,9 +1,9 @@
-﻿using GenesisVision.Core.ViewModels.Common;
-using GenesisVision.DataModel.Enums;
+﻿using LENDELTA.Core.ViewModels.Common;
+using LENDELTA.DataModel.Enums;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Converters;
 
-namespace GenesisVision.Core.ViewModels.Broker
+namespace LENDELTA.Core.ViewModels.Broker
 {
     public class BrokersFilter : PagingFilter
     {
