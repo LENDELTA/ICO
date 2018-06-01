@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace GenesisVision.Core.ViewModels.Broker
+namespace LENDELTA.Core.ViewModels.Broker
 {
     public class ManagerAccountOnlineInfo
     {
