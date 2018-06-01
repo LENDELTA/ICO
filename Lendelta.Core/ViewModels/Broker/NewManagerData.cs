@@ -1,7 +1,7 @@
-﻿using GenesisVision.DataModel.Enums;
+﻿using LENDELTA.DataModel.Enums;
 using System;
 
-namespace GenesisVision.Core.ViewModels.Broker
+namespace LENDELTA.Core.ViewModels.Broker
 {
     public class NewManagerData
     {
